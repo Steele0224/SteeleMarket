@@ -1,0 +1,12 @@
+.orderIfActive[data-active] {
+  background-color: var(--mantine-color-dark-6);
+}
+
+.orderIfActive[data-active] .detailsText {
+  display: none;
+}
+
+.orderIfActive:not([data-active]) .addressText {
+    display: none;
+  }
+  
